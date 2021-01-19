@@ -16,6 +16,7 @@
   *kube-proxy:* a network proxy that runs on each node in your cluster, implementing part of the K8s service concept.
   *container runtime:* a software that is responsible for running containers.
     * The Kubernetes API
+The core of K8s control plane is the API server. It exposes and HTTP API that lets end users, different parts of your cluster, and external components communicate with one another. Most operations can be performed through the kubectl command-line interface or other comman-line tools. You can also access the API directly using REST calls.
     * Working with Kubernetes Objects
         * Understanding Kubernetes Objects
         * Kubernetes Object Management
