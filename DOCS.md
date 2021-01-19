@@ -3,7 +3,7 @@
   Kubernetes is an open source container orchaestrations tool which is portable, extensible and facilitates both declarative configuration and automation. 
   **Things to know here:** Traditional deployment era, Virtualized deployment era, Container deployment, why you need K8s and what it can do for you, what K8s is not.
     * Kubernetes Components
-  Whay you deploy Kubernetes, you get a cluster. A Kubernetes cluster consists of a set of worker machines, called nodes, that run containerized applications. Every cluster has at least one worker node. The worker node(s) host the Pods that are the components of the application workload. The control plane manages the worker nodes and the pods in the cluster. 
+  When you deploy Kubernetes, you get a cluster. A Kubernetes cluster consists of a set of worker machines, called nodes, that run containerized applications. Every cluster has at least one worker node. The worker node(s) host the Pods that are the components of the application workload. The control plane manages the worker nodes and the pods in the cluster. 
   Control plane's components make global decisions about the cluster(for example, scheduling), as well as detecting and responding to cluster events(for example, starting up a new pod when a deployment's replicas field is unsatisfied).
   **Control Plane Components:** 
   *kube-apiserver:* It exposes the K8s API. It's the front end for the K8s control plane. It's designed to scale horizontally-that is, it scales by deploying more instances. 
